@@ -1,9 +1,9 @@
 # Kaggle to PostgreSQL Data Pipeline
 This project provides a simple pipeline to download datasets from Kaggle, process them, and import them into a PostgreSQL database using Docker.
 ## Files Overview
-- requirements.sh: This shell script installs all the necessary dependencies to run the Python script.
-- kaggle-to-postgre.py: A Python script that authenticates with Kaggle, downloads a dataset, processes it, and imports it into a PostgreSQL database.
-- runme.sh: A shell script that sequentially executes the requirements.sh script and the kaggle-to-postgre.py script.
+- `requirements.sh`: This shell script installs all the necessary dependencies to run the Python script.
+- `kaggle-to-postgre.py`: A Python script that authenticates with Kaggle, downloads a dataset, processes it, and imports it into a PostgreSQL database.
+- `runme.sh`: A shell script that sequentially executes the requirements.sh script and the kaggle-to-postgre.py script.
 ## Prerequisites
 - Docker and Docker Compose installed on your VPS.
 - Python 3.x and pip installed.
