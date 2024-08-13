@@ -15,6 +15,7 @@ This project provides a simple pipeline to download datasets from Kaggle, proces
 `cd <repository-folder>`
 2. Run the pipeline:
 `chmod +x runme.sh`
+
 `./runme.sh`
 
 This script will:
