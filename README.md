@@ -13,9 +13,9 @@ This project provides a simple pipeline to download datasets from Kaggle, proces
 1. Clone the repository:
 `git clone <repository-url>`
 `cd <repository-folder>`
-2. Run the pipeline:
+2. Make file executable:
 `chmod +x runme.sh`
-
+3. Run script:
 `./runme.sh`
 
 This script will:
